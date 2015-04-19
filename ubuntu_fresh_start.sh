@@ -45,6 +45,7 @@ gsettings set com.canonical.desktop.interface scrollbar-mode normal
 
 #Install tweak tools
 sudo apt-get install unity-tweak-tool gnome-tweak-tool
+sudo apt-get install compizconfig-settings-manager
 
 # Remove lenses for faster everything
 sudo apt-get autoremove unity-lens-music unity-lens-photos unity-lens-shopping unity-lens-video
