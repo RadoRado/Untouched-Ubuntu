@@ -11,8 +11,9 @@ sudo apt-get install tilda
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-echo "Make vim default git message editor"
+echo "Make vim default git message editor and push.default to simple"
 git config --global core.editor "vim"
+git config --global push.default simple
 
 # In case we need to compile Python
 sudo apt-get install build-essential
