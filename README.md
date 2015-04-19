@@ -8,23 +8,42 @@ Usually, it is pain to configure everything and to hunt down every guide there i
 
 There are few shell scripts that you need to run.
 
-**First, there is the `fresh_ubuntu_start.sh`**. This will install a lot of default things that are missing from ubuntu, including tweak tools. This scripts removes `apport`.
+### First things first - the fresh_ubuntu_start.sh script
+
+* This will install a lot of default things that are missing from ubuntu, including ubuntu-restricted-extras
+* This scripts removes `apport`.
+* [It fixes Ubuntu](https://fixubuntu.com/)
+* Unity and Gnome tweak tools + compizconfig-settings-manager included
+* Removes lenses
+* Adds TLP power management tool
 
 ```
 $ wget -q -O - https://raw.githubusercontent.com/RadoRado/Untouched-Ubuntu/master/ubuntu_fresh_start.sh | bash
 ```
 
-**After this, you can install some basic developer tools from `devtools.sh`**
+### Dev tools from devtools.sh
+
+This will install:
+
+* vim, git, curl, htop, tilda
+* Pathogen & Vundle
+* Make some basic git configurations
+* Install build tools
+* Link `py` to `python3`
 
 ```
 $ wget -q -O https://raw.githubusercontent.com/RadoRado/Untouched-Ubuntu/master/devtools.sh | bash
 ```
 
-If you want **zsh**:
+### ZSH
+
+If you want **zsh**. **This will reboot your computer!**
 
 ```
 $ wget -q -O https://raw.githubusercontent.com/RadoRado/Untouched-Ubuntu/master/zsh.sh | bash
 ```
+
+### Google Chrome
 
 If wou want **google chrome**:
 
