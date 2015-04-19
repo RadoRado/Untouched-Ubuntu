@@ -61,6 +61,7 @@ $ wget -q -O https://raw.githubusercontent.com/RadoRado/Untouched-Ubuntu/master/
 
 ## Online guides & sources
 
+* [**Troubleshooting Wireless problems**](https://help.ubuntu.com/community/WifiDocs/Driver/bcm43xx)
 * [Things to do after installing Ubuntu 14.40 - Utopic Unicorn](http://howtoubuntu.org/things-to-do-after-installing-ubuntu-14-10-utopic-unicorn) - Really good guide for start. Almost every script from here (without google chrome) is incorporated in `[ubuntu_fresh_start.sh](ubuntu_fresh_start.sh)`  
 * [10 things to do after installing Ubuntu 14.10](http://scienceblogs.com/gregladen/2014/10/24/10-things-to-do-after-installing-ubuntu-14-10-utopic-unicorn/) - Another really good guide, adding some extras, such as ubuntu-restricted-extras, fix ubuntu and default scrollbars
 * [Basic Apps for Ubuntu](http://www.omgubuntu.co.uk/2014/10/7-things-to-do-after-installing-ubuntu-14-10-utopic-unicorn)
