@@ -51,6 +51,14 @@ If wou want **google chrome**:
 $ wget -q -O https://raw.githubusercontent.com/RadoRado/Untouched-Ubuntu/master/google_chrome.sh | bash
 ```
 
+### Nvidia proprietary graphics drivers
+
+If you want to use the provided by **nVidia** graphics drivers for your nVidia video card:
+
+```
+$ wget -q -O https://raw.githubusercontent.com/RadoRado/Untouched-Ubuntu/master/install_nvidia_drivers.sh | bash
+```
+
 ## Online guides & sources
 
 * [Things to do after installing Ubuntu 14.40 - Utopic Unicorn](http://howtoubuntu.org/things-to-do-after-installing-ubuntu-14-10-utopic-unicorn) - Really good guide for start. Almost every script from here (without google chrome) is incorporated in `[ubuntu_fresh_start.sh](ubuntu_fresh_start.sh)`  
