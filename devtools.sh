@@ -7,6 +7,9 @@ sudo apt-get install htop
 sudo apt-get install curl
 sudo apt-get install tilda
 
+# Vim configurations
+mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
 echo "Make vim default git message editor"
 git config --global core.editor "vim"
 
