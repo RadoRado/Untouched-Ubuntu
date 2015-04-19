@@ -57,3 +57,4 @@ $ wget -q -O https://raw.githubusercontent.com/RadoRado/Untouched-Ubuntu/master/
 * [10 things to do after installing Ubuntu 14.10](http://scienceblogs.com/gregladen/2014/10/24/10-things-to-do-after-installing-ubuntu-14-10-utopic-unicorn/) - Another really good guide, adding some extras, such as ubuntu-restricted-extras, fix ubuntu and default scrollbars
 * [Basic Apps for Ubuntu](http://www.omgubuntu.co.uk/2014/10/7-things-to-do-after-installing-ubuntu-14-10-utopic-unicorn)
 * [How to remove animations for better performance](http://www.techdrivein.com/2014/11/20-things-todo-after-installing-ubuntu1410-ubuntu1404.html)
+* [How to switch languages with keyboard shortcut](http://askubuntu.com/questions/68127/how-to-switch-language-keyboard-combination)
