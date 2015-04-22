@@ -15,6 +15,12 @@ echo "Make vim default git message editor and push.default to simple"
 git config --global core.editor "vim"
 git config --global push.default simple
 
+# pip3
+sudo apt-get install python3-setuptools
+sudo easy_install3 pip
+sudo pip3 install virtualenv
+
+
 # In case we need to compile Python
 sudo apt-get install build-essential cmake
 sudo apt-get install python-dev
